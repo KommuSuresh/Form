@@ -1,0 +1,432 @@
+/* App.css */
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+}
+
+.text-wrapper,
+.text-wrapper-2,
+.text-wrapper-3 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(26, 24, 24);
+  margin-left: 90px;
+}
+.text-wrapper-4{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(26, 24, 24);
+  margin-left: 130px;
+}
+
+.ellipse {
+  border-radius: 50%;
+  background-color: rgb(241, 241, 245); /* Change the color as desired */
+  border: 2px solid black;
+}
+
+.text-wrapper::after {
+  content: '';
+  position: absolute;
+  width: 355px; /* Adjust the length of the line as needed */
+  height: 4px; /* Adjust the thickness of the line as needed */
+  background-color: black; /* Adjust the color of the line as needed */
+  top: 50%;
+  left: 395%;
+  transform: translate(-50%, -50%);
+}
+.text-wrapper-2::after {
+  content: '';
+  position: absolute;
+  width: 355px; /* Adjust the length of the line as needed */
+  height: 4px; /* Adjust the thickness of the line as needed */
+  background-color: black; /* Adjust the color of the line as needed */
+  top: 50%;
+  left: 395%;
+  transform: translate(-50%, -50%);
+}
+.text-wrapper-3::after {
+  content: '';
+  position: absolute;
+  width: 320px; /* Adjust the length of the line as needed */
+  height: 4px; /* Adjust the thickness of the line as needed */
+  background-color: black; /* Adjust the color of the line as needed */
+  top: 50%;
+  left: 370%;
+  transform: translate(-50%, -50%);
+}
+
+.ellipse-label {
+  margin-top: 18px;
+  margin-left: 90px;  /* Adjust the spacing between the ellipse number and label */
+}
+.ellipse-wrapper {
+  text-align: center;
+}
+.text-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 190px;
+  margin-left: 80px;
+}
+.text-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 195px;
+  margin-left: 320px;
+}
+.text-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 230px;
+  margin-left: 90px;
+}
+
+/* Your CSS */
+.row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 270px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+}
+
+.column {
+  flex: 1;
+  margin-right: 150px;/* Adjust the margin as needed for spacing */
+}
+
+.column-10 {
+  flex: 1;
+  margin-right: 150px;/* Adjust the margin as needed for spacing */
+}
+.input-box {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  /* Add any additional styling for your input boxes */
+}
+.row-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 350px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 440px;
+  margin-left: 370px;
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+}
+
+.row-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 510px;
+  margin-left: 370px;
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+}
+
+.row-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 590px;
+  margin-left: 340px;
+  display: flex;
+  justify-content: space-between;
+  width: 58%;
+}
+.kella{
+  color: white;
+}
+.plus{
+  margin-top: 1px;
+  font-size: 30px;
+  background-color: white;
+  border-color: white;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+}
+
+
+
+.text-11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 660px;
+  margin-left: 80px;
+}
+
+.row-10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 700px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+}
+
+.row-11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 780px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+}
+
+.row-12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 850px;
+  margin-left: 370px;
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+}
+
+.row-13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 920px;
+  margin-left: 370px;
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+}
+
+.row-14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 1000px;
+  margin-left: 340px;
+  display: flex;
+  justify-content: space-between;
+  width: 58%;
+}
+
+.party{
+  position: absolute;
+  background-color: rgb(26, 24, 24);
+  margin-top: 2000px;
+  margin-right: 1050px;
+  color: white;
+  padding: 1px;
+  width: 20%;
+  padding-top: 2px;
+  font-size: 17px;
+  cursor: pointer;
+
+}
+.plus1{
+  font-size: 25px;
+justify-content: center;
+}
+
+.party1{
+  position: absolute;
+  background-color: rgb(26, 24, 24);
+  margin-top: 2000px;
+  margin-right: 100px;
+  margin-left: 1000px;
+  color: white;
+  padding: 1px;
+  width: 6%;
+  padding-top: 2px;
+  font-size: 17px;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+
+.caps{
+  font-size: 20px;
+  width: 20%;
+  cursor: pointer;
+}
+
+.party2{
+  position: absolute;
+  background-color: rgb(26, 24, 24);
+  margin-top: 2000px;
+  margin-right: 100px;
+  margin-left: 770px;
+  color: white;
+  padding: 1px;
+  width: 6%;
+  padding-top: 2px;
+  font-size: 17px;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+
+.blue {
+  color: blue; /* Change the color based on your preference */
+}
+
+.black {
+  color: black; /* Change the color based on your preference */
+}
+
+
+.text-21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 245px;
+  margin-left: 120px;
+}
+.text-31 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 270px;
+  margin-left: 120px;
+}
+
+.row-21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 380px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+}
+
+
+
+.row-22 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 490px;
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-23 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 590px;
+  margin-left: 370px;
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+}
+
+.row-24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 700px;
+  margin-left: 370px;
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+}
+
+.row-25 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: rgb(26, 24, 24);
+  margin-top: 790px;
+  margin-left: 370px;
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+}
+
+
+
+
+
+
+
